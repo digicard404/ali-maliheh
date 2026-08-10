@@ -3,128 +3,85 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
     <title>ویدئو کارت دعوت</title>
-
     <link rel="stylesheet" href="style.css">
 </head>
-
 <body>
 
 <div class="container">
 
     <!-- نام مهمان -->
-    <div class="guest-section">
-        <span class="guest-title">حضور محترم</span>
-        <span class="guest-name" id="guestName"></span>
-    </div>
+     
+     <div class="guest-section">
+  <span class="guest-title">حضور محترم</span>
+  <span class="guest-name" id="guestName"></span>
+</div>
 
-
-    <!-- ویدئو -->
-    <video
-        id="weddingVideo"
-        class="wedding-video"
-        src="video/final.mp4"
-        controls
-        playsinline>
-    </video>
-
+   <!-- ویدئو -->
+<video id="weddingVideo" class="wedding-video" 
+src="video/final.mp4" 
+controls 
+playsinline>
+</video>
 
     <!-- تایمر معکوس -->
-    <div class="timer-wrapper">
+     <div class="timer-wrapper">
+    <h3 class="timer-title">تا مراسم عروسی ما 💍</h3>
 
-        <h3 class="timer-title">
-            تا مراسم عروسی ما 💍
-        </h3>
-
-        <div class="timer-grid">
-
-            <div class="time-box">
-                <span class="time-label">ثانیه</span>
-                <span id="sec" class="time-number">00</span>
-            </div>
-
-            <div class="time-box">
-                <span class="time-label">دقیقه</span>
-                <span id="min" class="time-number">00</span>
-            </div>
-
-            <div class="time-box">
-                <span class="time-label">ساعت</span>
-                <span id="hour" class="time-number">00</span>
-            </div>
-
-            <div class="time-box">
-                <span class="time-label">روز</span>
-                <span id="day" class="time-number">00</span>
-            </div>
-
-        </div>
-    </div>
-
-
-    <!-- تایید حضور مهمان -->
-    <div class="rsvp-box">
-
-        <h3 class="rsvp-title">
-            تایید حضور مهمان
-        </h3>
-
-        <input
-            type="text"
-            id="rsvpName"
-            class="rsvp-input"
-            placeholder="اسم شما"
-        >
-
-        <div class="rsvp-buttons">
-
-            <button
-                onclick="sendRSVP('yes')"
-                class="yes-btn">
-                با افتخار حضور داریم
-            </button>
-
-            <button
-                onclick="sendRSVP('no')"
-                class="no-btn">
-                امکان حضور نداریم
-            </button>
-
+    <div class="timer-grid">
+        <div class="time-box">
+            <span class="time-label">ثانیه</span>
+            <span id="sec" class="time-number">00</span>
         </div>
 
+        <div class="time-box">
+            <span class="time-label">دقیقه</span>
+            <span id="min" class="time-number">00</span>
+        </div>
+
+        <div class="time-box">
+            <span class="time-label">ساعت</span>
+            <span id="hour" class="time-number">00</span>
+        </div>
+
+        <div class="time-box">
+             <span class="time-label">روز</span>
+            <span id="day" class="time-number">00</span>
+        </div>
+
+    
     </div>
+</div>
 
+<!-- تایید حضور مهمان -->
+ 
+<div class="rsvp-box">
+    <h3 class="rsvp-title">تایید حضور مهمان</h3>
 
-    <!-- دکمه لوکیشن -->
-    <a
-        class="location-btn"
-        href="https://www.google.com/maps/place/عمارت+عصر+نوین"
-        target="_blank">
+    <input type="text" id="guestName" class="rsvp-input" placeholder="اسم شما">
 
-        مشاهده موقعیت روی نقشه
-
-    </a>
-
+    <div class="rsvp-buttons">
+        <button onclick="sendRSVP('yes')" class="yes-btn"> با افتخار حضور داریم  </button>
+        <button onclick="sendRSVP('no')" class="no-btn"> امکان حضور نداریم </button>
+    </div>
 </div>
 
 
-<!-- فوتر اینستاگرام -->
-<footer class="insta-footer">
-
-    <a
-        href="https://instagram.com/digi__card"
-        target="_blank">
-
-        digi__card
-
+    <!-- دکمه لوکیشن -->
+    <a class="location-btn" href="google.com/maps/place/عمارت+عصر+نوین%E2%80%AD/data=!4m2!3m1!1s0x0:0xe05f3e6ac8fd1d5b?sa=X&ved=1t:2428&ictx=111" target="_blank">
+        مشاهده موقعیت روی نقشه
     </a>
 
+    
+</div>
+
+<footer class="insta-footer">
+  <a href="https://instagram.com/digi__card">
+    digi__card
+  </a>
 </footer>
 
 
-<!-- فایل JavaScript -->
 <script src="script.js"></script>
-
 </body>
 </html>

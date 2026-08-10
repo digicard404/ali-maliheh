@@ -23,7 +23,7 @@ document.addEventListener("click", () => {
 // 2026, 9, 7 یعنی 7 اکتبر 2026
 let weddingDate = new Date(
     2026,
-    9,
+    8,
     7,
     18,
     0,
@@ -120,24 +120,23 @@ function sendRSVP(status) {
     // اگر مهمان می‌آید
     if (status === "yes") {
 
-        text = سلام، من ${name} هستم.
-برای مراسم میام 🌸;
+        text = ` سلام، من ${name} هستم.
+برای مراسم میام 🌸`;
 
     }
 
     // اگر مهمان نمی‌آید
     else {
 
-        text = سلام، من ${name} هستم.
-متاسفانه نمی‌تونم بیام 💐;
+        text =` سلام، من ${name} هستم.
+متاسفانه نمی‌تونم بیام 💐`;
 
     }
 
 
     // ساخت لینک واتساپ
     let url =
-        https://wa.me/${phone}?text=${encodeURIComponent(text)};
-
+    ` https://wa.me/${phone}?text=${encodeURIComponent(text)}`;
 
     // باز کردن واتساپ
     window.open(url, "_blank");
