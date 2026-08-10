@@ -57,9 +57,18 @@ function sendRSVP(status) {
     window.open(url, "_blank");
 }
 
-const params = new URLSearchParams(window.location.search);
-const guestName = params.get("guest");
+const guests = {
+    maryam: "مریم احمد زاده",
+    ali: "علی"
+};
 
-if (guestName) {
-    document.getElementById("guestName").textContent = guestName;
+const params = new URLSearchParams(window.location.search);
+const guestCode = params.get("g");
+
+if (guestCode && guests[guestCode]) {
+    const guestName = document.getElementById("guestName");
+
+    if (guestName) {
+        guestName.textContent = guests[guestCode];
+    }
 }
