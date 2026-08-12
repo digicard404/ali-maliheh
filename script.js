@@ -200,7 +200,7 @@ const guests = {
 
     maryam_ahmadzadeh: "مریم احمد زاده",
 
-    hassan_gholivandani: "حسن قلی وادانی با بانو",
+    hassan_pedrammanesh: "حسن پدرام منش با بانو",
 
     hosein_amiri: "حسین امیری با بانو",
 
@@ -262,115 +262,21 @@ const guests = {
 
     amirreza_raghebi: "امیر رضا راغبی",
 
+    hamid_mousavi: "حمید موسوی با بانو",
+
+    mohammadreza_kazemi: "محمد رضا کاظمی",}
+
 
     // ========================================
     // موارد تکراری
     // ========================================
 
-    kazem_ghaffari_2: "کاظم غفاری با بانو",
-
-    farhad_davoodi_2: "فرهادداودی با بانو",
-
-    rahim_kati_2: "رحیم کتی با بانو",
-
-    behzad_valipour_2: "بهزاد ولیپور با بانو",
-
-    behdad_valipour_2: "بهداد ولیپور با بانو",
-
-    mostafa_shekari_2: "مصطفی شکاری",
-
-    reza_aghajani_2: "رضا اقاجانی با بانو",
-
-    abbas_fattahi_2: "عباس فتاحی با بانو",
-
-    amir_darvish_gholami_2:
-        "امیر درویش غلامی با خانواده",
-
-    hesam_darvish_gholami_2:
-        "حسام درویش غلامی با بانو",
-
-    akbar_magari_2:
-        "اکبر مغاری با خانواده",
-
-    hassan_gholivandani_2:
-        "حسن قلی وادانی با بانو",
-
-    hosein_amiri_2:
-        "حسین امیری با بانو",
-
-
+    
     // ========================================
     // تکراری‌های بخش دوم
     // ========================================
 
-    mohammadreza_alimardani_2:
-        "محمد رضا علیمردانی با بانو",
-
-    hassan_alimardani_2:
-        "حسن علیمردانی با خانواده",
-
-    mehdi_haghighatkhah_2:
-        "مهدی حقیقت خواه با بانو",
-
-    hamid_abdian_2:
-        "حمید عبدیان",
-
-    touraj_niknam_2:
-        "تورج نیکنام با بانو",
-
-    mohammad_soltanmohammadi_2:
-        "محمد سلطان محمدی با خانواده",
-
-    ali_danan_2:
-        "علی دنان",
-
-    haj_esmail_golzadeh_2:
-        "حاج اسماعیل گلزاده",
-
-    mohammad_khansari_2:
-        "محمد خوانساری",
-
-    ali_badi_alzamani_2:
-        "علی بدیع الزمانی",
-
-    mohammad_badi_alzamani_2:
-        "محمد بدیع الزمانی با بانو",
-
-    doctor_kazem_khonsari_2:
-        "دکتر کاظم خونساری با بانو",
-
-    behrouz_rasouli_2:
-        "بهروز رسولی",
-
-    reza_haj_mashhadi_2:
-        "رضا حاج مشهدی با بانو",
-
-    kati_kazemi_2:
-        "کتی کاظمی",
-
-    abdollah_yousefi_2:
-        "عبداله یوسفی با بانو",
-
-    amirhesam_yousefi_2:
-        "امیر حسام یوسفی با بانو",
-
-    mohammad_eftekhari_2:
-        "محمد افتخاری با بانو",
-
-    ahmad_ghaydi_2:
-        "احمد قیدی با مادر",
-
-    reza_abdollahvand_2:
-        "رضا عبداله وند با بانو",
-
-    amir_jangroui_2:
-        "امیر جنگروی",
-
-    amirreza_raghebi_2:
-        "امیر رضا راغبی"
-};
-
-
+    
 
 // ========================================
 // نمایش اسم مهمان از روی لینک
