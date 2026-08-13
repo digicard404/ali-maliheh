@@ -120,7 +120,7 @@ function sendRSVP(status) {
     // اگر مهمان می‌آید
     if (status === "yes") {
 
-        text = ` سلام، من ${name} هستم.
+        text = `سلام، من ${name} هستم.
 برای مراسم میام 🌸`;
 
     }
@@ -128,7 +128,7 @@ function sendRSVP(status) {
     // اگر مهمان نمی‌آید
     else {
 
-        text =` سلام، من ${name} هستم.
+        text =`سلام، من ${name} هستم.
 متاسفانه نمی‌تونم بیام 💐`;
 
     }
@@ -136,7 +136,7 @@ function sendRSVP(status) {
 
     // ساخت لینک واتساپ
     let url =
-    ` https://wa.me/${phone}?text=${encodeURIComponent(text)}`;
+    `https://wa.me/${phone}?text=${encodeURIComponent(text)}`;
 
     // باز کردن واتساپ
     window.open(url, "_blank");
