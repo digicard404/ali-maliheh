@@ -266,7 +266,16 @@ const guests = {
 
     mohammadreza_kazemi: "محمد رضا کاظمی",
 
-    mahsa_daniyali: "مهسا دانیالی ",}
+    mahsa_daniyali: "مهسا دانیالی ",
+
+    haj_kazem_ahmadi: "آقای حاج کاظم احمدی به همراه خانواده",
+
+    reza_ahmadi: "آقای رضا احمدی به همراه خانواده",
+
+    hassan_ehsani: "آقای حسن احسانی با بانو",
+
+    shapur_hashemagha:"آقای شاپور هاشم آقا یا بانو"
+}
 
 
     // ========================================
